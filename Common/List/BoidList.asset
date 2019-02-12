@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f765c71ab1e0426a9f20f87192efe07, type: 3}
+  m_Name: BoidList
+  m_EditorClassIdentifier: 
+  BoidParamList:
+  - Name: "\u3042\u3058"
+    initSpeed: 10
+    minSpeed: 0
+    maxSpeed: 0
+    neighborDistance: 0
+    neighborFov: 0
+    separationWeight: 0
+    wallScale: 0
+    wallDistance: 0
+    wallWeight: 0
+    alignmentWeight: 0
+    cohesionWeight: 0
+  - Name: "\u3055\u3093\u307E"
+    initSpeed: 0
+    minSpeed: 0
+    maxSpeed: 0
+    neighborDistance: 0
+    neighborFov: 0
+    separationWeight: 0
+    wallScale: 0
+    wallDistance: 0
+    wallWeight: 0
+    alignmentWeight: 0
+    cohesionWeight: 0
+  - Name: "\u30BF\u30A4"
+    initSpeed: 0
+    minSpeed: 0
+    maxSpeed: 0
+    neighborDistance: 0
+    neighborFov: 0
+    separationWeight: 0
+    wallScale: 0
+    wallDistance: 0
+    wallWeight: 0
+    alignmentWeight: 0
+    cohesionWeight: 0
